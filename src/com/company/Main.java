@@ -8,6 +8,9 @@ public class Main {
 	Scanner input = new Scanner(System.in);
 	System.out.println("What is your name?");
 	String str = input.nextLine();
-	System.out.println("Hello World! My name is " + str);// write your code here
+	System.out.println("Hello " + str + "! How are you?");
+	System.out.println("How old are you " + str + "?");
+	int i = input.nextInt();
+	System.out.println(str + " is " + i + " years old!");// write your code here
     }
 }
